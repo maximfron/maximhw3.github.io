@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>SpaceX</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header" class="row">
+		<div id="crew-block" class="block grey">
+			<div class="block-text">
+				<small class="block-label">Crew</small>
+				<div class="block-title">DRAGON</div>
+			</div>
+		</div>
+		<div id="perigee-block" class="block">
+			<div class="block-text">
+				<small class="block-label">Perigee</small> <div class="minus"></div>
+				<div class="block-title">185.013<span class="blue"> m</span></div>
+			</div>
+			<div class="block-icon-m">
+				<i class="icon icon-minus"></i>
+			</div>
+		</div>
+		<div id="apogee-block" class="block">
+			<div class="block-text">
+				<small class="block-label">Apogee</small> <div class="minus"></div>
+				<div class="block-title">360.304<span class="blue"> m</span>
+			</div>
+		</div>
+		<div class="block-icon-m">
+			<i class="icon icon-minus"></i>
+		</div>
+	</div >
+	<div id="relative-altitude-block" class="block">
+		<div class="block-text">
+			<small class="block-label">Relative Altitude </small><img class="img-arrow" src="right-arrow.svg" alt="">
+			<div class="block-title">50.948<span class="blue"> m</span>
+			</div>
+		</div>
+		<div class="arrow down">
+			<i class="icon icon-arrow-bottom"></i>
+		</div>
+		<div class="special-arrow"></div>
+	</div>
+	<div id="range-to-iss-block" class="block">
+		<div class="block-text">
+			<small class="block-label">Range to ISS</small><img class="img-arrow" src="right-arrow.svg" alt="">
+			<div class="block-title">625,713<span class="blue"> m</span></div>
+		</div>
+		<div class="arrow down">
+			<i class="icon-arrow-bottom"></i>
+		</div>
+		<div class="special-arrow"></div>
+	</div>
+</div>
+
+<div id="planet-view" class="row">
+</div>
+
+<div id="current-time" class="row">
+	<div id="time-big" class="block time exchange">
+		<small class="block-label">Day 131</small>
+		<div class="large">13:46:11</div>
+	</div>
+	<div id="speed-chart exchange" class="block time">
+		<div class="exchange2"> <img src="coordinates1.png" alt="coordinates"></div>
+	</div>
+	<div class="block time ">
+		<div class="next-burn">
+			<div class="paralel">Next Burn</div>
+			<div class="paralel-blue-text blue">Enabled<span class="blue circle"></span></div>
+		</div>
+		<div class="">
+			<div class="timer-clear">-0:05:48</div>
+		</div>
+		<div class="timer-paralel">
+			<div class="paralel">13:52:00</div>
+			<div class="paralel-grey">DAY 131</div>
+		</div>
+	</div>
+	<div class="block time ">
+		<div class="">
+			<div class="paralel">Target ^V</div>
+			<div class=""></div>
+		</div>
+		<div class="">
+			<div class="delta big">33.5<span class="closer">m/s</span></div>
+		</div>
+		<div class="">
+			<div class="blue-text delta blue">Thruster Temps</div>
+		</div>
+	</div>
+</div>
+
+<div id="alarms" class="row block">
+	<div class="half-block">
+		<div class="omega">0</div> 
+		<div class="omega2">
+			ALARMS
+		</div>
+	</div>
+	<div class="omega2">
+		<p>ALL SISTEM NOMINAL</p> 
+		<img class="img-check" src="check-mark.svg" alt="">
+	</div>
+
+</div>
+
+<div id="next-actions" class="row block">
+	<div class="next-actions">
+		<div class="">
+			<div class="block action">
+				<div class="action11">-0:08:24</div>
+				<div class="action12">
+					<div>Next LOS</div> 
+					<div>(00:03:17)</div>
+				</div>
+				<div class="action1">
+					<div>13:54:36</div>
+					<div class="action12">DAY 131</div>
+				</div>
+			</div>
+			<div class="block action">
+				<div class="action11">-02:51:02</div>
+				<div class="action13">Estimated ISS Ariival</div>
+				<div class="action1">
+					<div>16:37:15</div>
+					<div class="action12">DAY 131</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="next-actions">
+		<div class="action next-13">
+			<div class="action11">-0:23:23</div>
+			<div class="action12">Next Deorbit Window Pacific</div>
+			<div >
+				<div>14:09:36</div>
+				<div class="action12">Day 131</div>
+			</div>
+		</div>
+		<hr class="hrb" />
+		<div  class="action next-13">
+			<div>
+				<div class="blue">Current Breakdout</div>
+				<div>Retrograde</div>
+			</div>
+			<div>V=5.0 m/n</div>
+				
+		</div>	
+	</div>
+</div>
+
+<div id="schedule" class="row">
+	<div class="prepare">
+		<div class="names">Schedule</div>
+		<div class="names">ALL EVENTS</div>
+	</div>
+	<hr class="hr1">
+	<div class="prepare">
+		<div class="indent">
+			<div>13:10:00</div>
+			<div class="indent2 action12">Rendezvous Burn GO/NO-GO</div>
+		</div>
+		<div class="action12">Ground</div>
+	</div>
+	<hr class="hr2">
+	<div class="prepare">
+		<div class="indent">
+			<div>13:37:00</div>
+			<div class="indent2 action12">Prepare for rendezvous burn</div>
+		</div>
+			<div class="action12">Crew</div>
+		
+	</div>
+	<hr class="hr2">
+	<div class="prepare">
+		<div class="indent">
+			<div>13:46:45</div>
+			<div class="indent2 action12">Rendezvous burn slow</div>
+		</div>
+			<div class="action12">Gragon</div>
+		
+	</div>
+	<hr class="hr2">
+	<div class="prepare">
+		<div class="indent">
+			<div>13:52:10</div>
+			<div class="indent2 action12">Rendezvous Burn</div>
+		</div>
+			<div class="action12">Dragon</div>
+	</div>
+</div>
+
+<div id="rendezvous" class="row block3">
+	<div class="prepare3">
+		<div class="endgrey">Rendezvous</div>
+		<div class="endgrey1">Approach</div>
+	</div>
+</div>
+
+<div id="rendezvous" class="row">
+	<div class="">
+		<div class="table">
+			<div class="table2 block">Ground</div>
+			<div class="table2 block"></div>
+			<div class="table2 block "><span class="gr1"></span></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"><span class="gr3"></span></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+		</div>
+		<div class="table">
+			<div class="table2 block">TDRS</div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"><span class="gr1"></span></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+		</div><div class="table">
+			<div class="table2 block">ISS</div>
+			<div class="table2 block"><span class="gr2"></span></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"><span class="gr3"></span></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+		</div><div class="table">
+			<div class="table2 block">Eclipse</div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"><span class="gr1"></span></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+		</div><div class="table">
+			<div class="table2 block">Burn</div>
+			<div class="table2 block"></div>
+			<div class="table2 block"><span class="gr2"></span></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+		</div><div class="table">
+			<div class="table2 block">Crew</div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"><span class="gr1"></span></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"></div>
+			<div class="table2 block"><span class="gr3"></span></div>
+		</div><div class="table block">
+			<div class="table2 ex"></div>
+			<div class="table2">12:30</div>
+			<div class="table2">13:00</div>
+			<div class="table2">13:30</div>
+			<div class="table2">14:00</div>
+			<div class="table2">14:30</div>
+			<div class="table2">15:00</div>
+			<div class="table2">15:30</div>
+			<div class="table2">16:00</div>
+			<div class="table2">16:30</div>
+			
+		</div>
+	</div>
+	<div class="row">
+		<div class="end">
+			<div class="line1"></div>
+			<div class="line2"></div>
+		</div>
+		
+	</div>
+</div>
+</body>
+</html>
